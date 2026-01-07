@@ -420,7 +420,7 @@ if not st.session_state.authenticated:
                 else:
                     st.warning("Please enter both username and password")
         
-        st.info("💡 Default admin credentials: username: `admin`, password: `admin123`")
+       # st.info("💡 Default admin credentials: username: `admin`, password: `admin123`")
     
     st.stop()
 
@@ -1053,3 +1053,4 @@ with tabs[3]:
                     st.rerun()
             else:
                 st.error("❌ Incorrect Menu Password")
+
